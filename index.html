@@ -8,6 +8,20 @@
     <link rel="stylesheet" href="css/mobile.css" />
     <!-- Marked.js for Markdown parsing -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+      // 配置marked选项
+      marked.setOptions({
+        breaks: true, // 支持GitHub风格的换行符
+        gfm: true, // 启用GitHub风格的Markdown
+        headerIds: false, // 禁用标题ID
+        mangle: false, // 禁用标题ID转义
+        pedantic: false, // 禁用pedantic模式
+        sanitize: false, // 允许HTML标签
+        smartLists: true, // 使用更智能的列表行为
+        smartypants: true, // 使用更智能的标点符号
+        xhtml: false, // 不使用xhtml模式
+      });
+    </script>
   </head>
   <body>
     <div class="container">
@@ -18,6 +32,13 @@
       <nav id="category-nav">
         <!-- 分类按钮将通过JS动态生成 -->
       </nav>
+
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="搜索题目..." />
+        <div id="search-results" class="hidden">
+          <!-- 搜索结果将通过JS动态生成 -->
+        </div>
+      </div>
 
       <main>
         <div id="question-card">

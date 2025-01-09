@@ -1,12 +1,12 @@
 :root {
   --primary-color: #3498db;
   --secondary-color: #2ecc71;
-  --background-color: #f5f6fa;
+  --background-color: #f8f9fa;
   --text-color: #2c3e50;
   --card-background: #ffffff;
   --shadow-color: rgba(0, 0, 0, 0.1);
   --inactive-color: #95a5a6;
-  --answer-background: #f8f9fa;
+  --answer-background: #f5f6fa;
 }
 
 * {
@@ -162,19 +162,189 @@ header h1 {
   overflow-x: auto;
 }
 
+/* Markdown 内容样式 */
+#answer-content h1,
+#answer-content h2,
+#answer-content h3,
+#answer-content h4,
+#answer-content h5,
+#answer-content h6 {
+  margin: 1em 0 0.6em;
+  line-height: 1.4;
+  color: var(--text-color);
+}
+
+#answer-content h4 {
+  font-size: 1.2em;
+}
+#answer-content h5 {
+  font-size: 1.1em;
+}
+#answer-content h6 {
+  font-size: 1em;
+}
+
+#answer-content p {
+  margin: 0.8em 0;
+  line-height: 1.6;
+}
+
+#answer-content ul,
+#answer-content ol {
+  margin: 0.5em 0;
+  padding-left: 2em;
+}
+
+#answer-content li {
+  margin: 0.3em 0;
+}
+
+#answer-content code {
+  background-color: #f0f0f0;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.9em;
+}
+
 #answer-content pre {
-  max-width: 100%;
+  background-color: #f0f0f0;
+  padding: 1em;
+  border-radius: 5px;
   overflow-x: auto;
+  margin: 1em 0;
+}
+
+#answer-content pre code {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+#answer-content blockquote {
+  margin: 1em 0;
+  padding-left: 1em;
+  border-left: 4px solid var(--primary-color);
+  color: #666;
+}
+
+#answer-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  display: block;
+  overflow-x: auto;
+}
+
+#answer-content th,
+#answer-content td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+#answer-content th {
+  background-color: #f5f5f5;
 }
 
 #answer-content img {
   max-width: 100%;
   height: auto;
+  margin: 1em 0;
 }
 
-#answer-content table {
-  display: block;
+#answer-content strong {
+  font-weight: 600;
+}
+
+#answer-content em {
+  font-style: italic;
+}
+
+/* 调整列表样式 */
+#answer-content ul {
+  list-style-type: disc;
+}
+
+#answer-content ul ul {
+  list-style-type: circle;
+}
+
+#answer-content ul ul ul {
+  list-style-type: square;
+}
+
+#answer-content ol {
+  list-style-type: decimal;
+}
+
+#answer-content ol ol {
+  list-style-type: lower-alpha;
+}
+
+#answer-content ol ol ol {
+  list-style-type: lower-roman;
+}
+
+.search-box {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#search-input {
   width: 100%;
-  overflow-x: auto;
-  border-collapse: collapse;
+  padding: 12px;
+  border: 2px solid var(--inactive-color);
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+#search-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+#search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--card-background);
+  border-radius: 5px;
+  box-shadow: 0 4px 6px var(--shadow-color);
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+#search-results.hidden {
+  display: none;
+}
+
+.search-result-item {
+  padding: 12px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--background-color);
+  transition: background-color 0.2s;
+}
+
+.search-result-item:hover {
+  background-color: var(--background-color);
+}
+
+.search-result-item:last-child {
+  border-bottom: none;
+}
+
+.category-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 3px;
+  font-size: 0.8em;
+  margin-right: 8px;
 }

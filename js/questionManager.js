@@ -4,6 +4,7 @@ class QuestionManager {
     this.currentCategory = null;
     this.questions = null;
     this.currentQuestion = null;
+    this.searchTimeout = null;
   }
 
   async initialize() {
@@ -20,6 +21,9 @@ class QuestionManager {
 
       // 初始化题目点击事件
       this.initializeQuestionCardClick();
+
+      // 初始化搜索功能
+      this.initializeSearch();
 
       // 加载第一个分类的题目
       if (this.categories.length > 0) {
@@ -98,23 +102,27 @@ class QuestionManager {
   }
 
   parseMarkdown(markdown, questionNumber) {
-    // 找到所有的三级标题
+    // 找到所有的三级标题位置
     const titleMatches = Array.from(markdown.matchAll(/###\s+[^\n]+/g));
     if (!titleMatches.length || questionNumber > titleMatches.length) {
       return { content: '', answer: '' };
     }
 
-    // 获取指定的题目
+    // 获取当前题目的三级标题
     const currentMatch = titleMatches[questionNumber - 1];
-    const nextMatch = titleMatches[questionNumber];
+    const nextThirdLevelTitle = titleMatches[questionNumber];
 
     // 获取标题
     const title = currentMatch[0];
 
-    // 获取答案（从当前标题后到下一个标题前，或文件末尾）
-    const answerStartIndex = currentMatch.index + currentMatch[0].length;
-    const answerEndIndex = nextMatch ? nextMatch.index : markdown.length;
-    const answer = markdown.slice(answerStartIndex, answerEndIndex).trim();
+    // 计算答案的起始位置（标题后面）
+    const contentStartIndex = currentMatch.index + currentMatch[0].length;
+
+    // 如果有下一个三级标题，则截取到那里；否则截取到文件末尾
+    const contentEndIndex = nextThirdLevelTitle ? nextThirdLevelTitle.index : markdown.length;
+
+    // 获取这一部分的所有内容
+    const answer = markdown.slice(contentStartIndex, contentEndIndex).trim();
 
     return {
       content: marked.parse(title),
@@ -129,7 +137,9 @@ class QuestionManager {
     const answerContent = document.getElementById('answer-content');
     const answerSection = document.getElementById('answer-section');
 
-    questionContent.innerHTML = this.currentQuestion.content;
+    // 添加分类标签到题目内容
+    const categoryTag = `<span class="category-tag">${this.currentCategory}</span>`;
+    questionContent.innerHTML = categoryTag + this.currentQuestion.content;
     answerContent.innerHTML = this.currentQuestion.answer;
     answerSection.classList.add('hidden');
   }
@@ -147,5 +157,93 @@ class QuestionManager {
         this.toggleAnswer();
       }
     });
+  }
+
+  initializeSearch() {
+    const searchInput = document.getElementById('search-input');
+    const searchResults = document.getElementById('search-results');
+
+    searchInput.addEventListener('input', () => {
+      clearTimeout(this.searchTimeout);
+      this.searchTimeout = setTimeout(() => {
+        const query = searchInput.value.trim().toLowerCase();
+        if (query.length >= 2) {
+          this.performSearch(query);
+        } else {
+          searchResults.classList.add('hidden');
+        }
+      }, 300);
+    });
+
+    // 点击其他地方时隐藏搜索结果
+    document.addEventListener('click', (event) => {
+      if (!event.target.closest('.search-box')) {
+        searchResults.classList.add('hidden');
+      }
+    });
+  }
+
+  performSearch(query) {
+    const searchResults = document.getElementById('search-results');
+    const results = [];
+
+    // 在所有分类中搜索
+    for (const category in this.questions) {
+      const questions = this.questions[category];
+      const matchedQuestions = questions.filter((q) => q.title.toLowerCase().includes(query));
+
+      matchedQuestions.forEach((q) => {
+        results.push({
+          ...q,
+          category,
+        });
+      });
+    }
+
+    // 显示搜索结果
+    searchResults.innerHTML = '';
+    if (results.length > 0) {
+      results.forEach((result) => {
+        const div = document.createElement('div');
+        div.className = 'search-result-item';
+        div.innerHTML = `
+          <span class="category-tag">${result.category}</span>
+          ${result.title}
+        `;
+        div.addEventListener('click', () => this.loadQuestionFromSearch(result));
+        searchResults.appendChild(div);
+      });
+      searchResults.classList.remove('hidden');
+    } else {
+      searchResults.innerHTML = '<div class="search-result-item">未找到相关题目</div>';
+      searchResults.classList.remove('hidden');
+    }
+  }
+
+  async loadQuestionFromSearch(question) {
+    // 更新分类
+    await this.setCategory(question.category);
+
+    // 加载具体题目
+    try {
+      const [filePath, questionNumber] = question.path.split('#');
+      const response = await fetch(filePath);
+      const markdown = await response.text();
+
+      const parts = this.parseMarkdown(markdown, parseInt(questionNumber));
+
+      this.currentQuestion = {
+        ...question,
+        ...parts,
+      };
+
+      this.updateQuestionDisplay();
+
+      // 隐藏搜索结果
+      document.getElementById('search-results').classList.add('hidden');
+      document.getElementById('search-input').value = '';
+    } catch (error) {
+      console.error('加载题目失败:', error);
+    }
   }
 }

@@ -24,6 +24,25 @@
     flex: 1 0 auto;
   }
 
+  #search-input {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  #search-results {
+    max-height: 250px;
+  }
+
+  .search-result-item {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .category-tag {
+    font-size: 0.75em;
+    padding: 1px 6px;
+  }
+
   #question-card {
     padding: 20px;
   }

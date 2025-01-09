@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>前端面试题库</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <!-- Marked.js for Markdown parsing -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>前端面试题库</h1>
+      </header>
+
+      <nav id="category-nav">
+        <!-- 分类按钮将通过JS动态生成 -->
+      </nav>
+
+      <main>
+        <div id="question-card">
+          <div id="question-content"></div>
+          <div id="answer-section" class="hidden">
+            <div id="answer-content"></div>
+          </div>
+        </div>
+
+        <div class="controls">
+          <button id="toggle-answer">显示/隐藏答案</button>
+          <button id="next-question">随机下一题</button>
+        </div>
+      </main>
+    </div>
+
+    <script src="js/questionManager.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

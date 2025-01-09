@@ -1,0 +1,64 @@
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  #category-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-bottom: 10px;
+  }
+
+  #category-nav button {
+    padding: 8px 16px;
+    height: 36px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(50% - 4px); /* 每行最多显示两个，减去间距 */
+    flex: 1 0 auto;
+  }
+
+  #question-card {
+    padding: 20px;
+  }
+
+  .controls {
+    padding: 10px;
+  }
+
+  .controls button {
+    padding: 10px 20px;
+    min-width: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  #category-nav button {
+    font-size: 0.9em;
+    min-width: calc(50% - 4px); /* 确保每行两个按钮 */
+  }
+
+  .controls {
+    flex-direction: column;
+    padding: 10px 15px;
+  }
+
+  .controls button {
+    width: 100%;
+    min-width: unset;
+  }
+
+  body {
+    padding-bottom: 130px; /* 为双行按钮留出空间 */
+  }
+}

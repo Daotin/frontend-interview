@@ -1,0 +1,2494 @@
+{
+  "Css": [
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-1",
+      "title": "1. link 和@import 的区别",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#1"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-2",
+      "title": "2. 伪元素和伪类的区别和作用？",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#2"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-3",
+      "title": "3. CSS 选择器及其优先级",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#3"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-4",
+      "title": "4. display 的 block、inline 和 inline-block 的区别",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#4"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-5",
+      "title": "5. display:none 与 visibility:hidden 的区别",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#5"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-6",
+      "title": "6. 对 Flex 布局的理解及其使用场景",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#6"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-7",
+      "title": "7.flex:1 代表什么",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#7"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-8",
+      "title": "8. 什么是 margin 重叠问题？如何解决？",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#8"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-9",
+      "title": "9. position 的属性有哪些，区别是什么",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#9"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-10",
+      "title": "10. 对盒模型的理解",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#10"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-11",
+      "title": "11. 为什么需要清除浮动？清除浮动的方式",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#11"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-12",
+      "title": "12. 使用 clear 属性清除浮动的原理？",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#12"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-13",
+      "title": "13. li 与 li 之间有看不见的空白间隔是什么原因引起的？如何解决？",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#13"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-14",
+      "title": "14. px、em、rem 的区别及使用场景",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#14"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-15",
+      "title": "15. CSS3 中有哪些新特性",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#15"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-16",
+      "title": "16. ::before 和 :after 的双冒号和单冒号有什么区别？",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#16"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-17",
+      "title": "17.说说浏览器的 reflow（回流）和 repaint（重绘）",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#17"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-18",
+      "title": "18. Sass、Less 是什么？为什么要使用他们？",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#18"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-19",
+      "title": "19. CSS 优化和提高性能的方法有哪些？",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#19"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-20",
+      "title": "20. CSS 预处理器/后处理器是什么？为什么要使用它们？",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#20"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-21",
+      "title": "21. 对媒体查询的理解？",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#21"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-22",
+      "title": "22. 对 CSS 工程化的理解",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#22"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-23",
+      "title": "23. 三栏布局的实现",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#23"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-24",
+      "title": "24.水平垂直居中的实现",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#24"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-25",
+      "title": "25. 如何根据设计稿进行移动端适配？",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#25"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-26",
+      "title": "26. 对 BFC 的理解，如何创建 BFC",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#26"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-27",
+      "title": "1. 单行、多行文本溢出隐藏",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#27"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-28",
+      "title": "2. 画一条 0.5px 的线",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#28"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-29",
+      "title": "3. 设置小于 12px 的字体",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#29"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-30",
+      "title": "4. 实现一个三角形",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#30"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-31",
+      "title": "5. 实现一个扇形",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#31"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-32",
+      "title": "6. 实现一个宽高自适应的正方形",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#32"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-33",
+      "title": "7. 如何解决 1px 问题？",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#33"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-34",
+      "title": "思路一：直接写 0.5px",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#34"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-35",
+      "title": "思路二：伪元素先放大后缩小",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#35"
+    },
+    {
+      "id": "css-2.鲨鱼速成班之CSS篇-36",
+      "title": "思路三：viewport 缩放来解决",
+      "path": "questions/css/2.鲨鱼速成班之CSS篇.md#36"
+    }
+  ],
+  "Html": [
+    {
+      "id": "html-1.鲨鱼速成班之HTML篇-1",
+      "title": "1.html标签的类型（head， body，！Doctype） 他们的作用是什么",
+      "path": "questions/html/1.鲨鱼速成班之HTML篇.md#1"
+    },
+    {
+      "id": "html-1.鲨鱼速成班之HTML篇-2",
+      "title": "2. 对 HTML 语义化的理解",
+      "path": "questions/html/1.鲨鱼速成班之HTML篇.md#2"
+    },
+    {
+      "id": "html-1.鲨鱼速成班之HTML篇-3",
+      "title": "3. src 和 href 的区别",
+      "path": "questions/html/1.鲨鱼速成班之HTML篇.md#3"
+    },
+    {
+      "id": "html-1.鲨鱼速成班之HTML篇-4",
+      "title": "4. H5有哪些新特性",
+      "path": "questions/html/1.鲨鱼速成班之HTML篇.md#4"
+    },
+    {
+      "id": "html-1.鲨鱼速成班之HTML篇-5",
+      "title": "5. script 标签中 defer 和 async 的区别",
+      "path": "questions/html/1.鲨鱼速成班之HTML篇.md#5"
+    },
+    {
+      "id": "html-1.鲨鱼速成班之HTML篇-6",
+      "title": "6. 说一下 web worker",
+      "path": "questions/html/1.鲨鱼速成班之HTML篇.md#6"
+    },
+    {
+      "id": "html-1.鲨鱼速成班之HTML篇-7",
+      "title": "7. **iframe 有那些优点和缺点？**",
+      "path": "questions/html/1.鲨鱼速成班之HTML篇.md#7"
+    },
+    {
+      "id": "html-1.鲨鱼速成班之HTML篇-8",
+      "title": "8. 渐进增强和优雅降级之间的区别",
+      "path": "questions/html/1.鲨鱼速成班之HTML篇.md#8"
+    }
+  ],
+  "Javascript": [
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-1",
+      "title": "1. JavaScript 有哪些数据类型，它们的区别？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#1"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-2",
+      "title": "2. null 和 undefined 区别",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#2"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-3",
+      "title": "3. typeof null 的结果是什么，为什么？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#3"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-4",
+      "title": "4. typeof NaN 的结果是什么？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#4"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-5",
+      "title": "5. 数据类型检测的方式有哪些",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#5"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-6",
+      "title": "6. instanceof 操作符的实现原理及实现",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#6"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-7",
+      "title": "7. 判断数组的方式有哪些",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#7"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-8",
+      "title": "8. 数组有哪些原生方法？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#8"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-9",
+      "title": "9. 数组的遍历方法有哪些",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#9"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-10",
+      "title": "10. forEach 和 map 方法有什么区别",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#10"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-11",
+      "title": "11. for...in 和 for...of 的区别",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#11"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-12",
+      "title": "12. 如何使用 for...of 遍历对象",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#12"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-13",
+      "title": "13. 对类数组对象的理解，如何转化为数组",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#13"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-14",
+      "title": "14. == 操作符的强制类型转换规则？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#14"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-15",
+      "title": "15. Object.is() 与比较操作符 “`===`”、“`==`” 的区别？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#15"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-16",
+      "title": "16. 什么是 JavaScript 中的包装类型？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#16"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-17",
+      "title": "17. 为什么 0.1+0.2 ! == 0.3，如何让其相等",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#17"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-18",
+      "title": "18. JavaScript 中如何进行隐式类型转换？--了解即可",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#18"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-19",
+      "title": "19. let、const、var 的区别",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#19"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-20",
+      "title": "20. JavaScript 为什么要进行变量提升，它导致了什么问题？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#20"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-21",
+      "title": "21. const 对象的属性可以修改吗",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#21"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-22",
+      "title": "22. new 操作符的实现原理",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#22"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-23",
+      "title": "23. 如果 new 一个箭头函数的会怎么样",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#23"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-24",
+      "title": "24. 箭头函数与普通函数的区别",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#24"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-25",
+      "title": "25. 箭头函数的 this 指向哪⾥？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#25"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-26",
+      "title": "26. 对 this 对象的理解",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#26"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-27",
+      "title": "27. call() 和 apply() 的区别？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#27"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-28",
+      "title": "28. 实现 call、apply 及 bind 函数（建议看一下鲨鱼哥的掘金手写）",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#28"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-29",
+      "title": "29. Proxy 可以实现什么功能？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#29"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-30",
+      "title": "30. ES6 中模板语法与字符串处理",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#30"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-31",
+      "title": "31. JavaScript 有哪些内置对象",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#31"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-32",
+      "title": "32. JavaScript 脚本延迟加载的方式有哪些？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#32"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-33",
+      "title": "33. 什么是 DOM 和 BOM？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#33"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-34",
+      "title": "34. 常见的 DOM 操作有哪些",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#34"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-35",
+      "title": "1）DOM 节点的获取",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#35"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-36",
+      "title": "2）DOM 节点的创建",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#36"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-37",
+      "title": "3）DOM 节点的删除",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#37"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-38",
+      "title": "4）修改 DOM 元素",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#38"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-39",
+      "title": "35. 对 AJAX 的理解，实现一个 AJAX 请求",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#39"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-40",
+      "title": "36. ajax、axios、fetch 的区别",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#40"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-41",
+      "title": "37. **ES6**模块与**CommonJS**模块有什么异同？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#41"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-42",
+      "title": "38. 对原型、原型链的理解",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#42"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-43",
+      "title": "39. 原型链指向",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#43"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-44",
+      "title": "40. 原型链的终点是什么？如何打印出原型链的终点？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#44"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-45",
+      "title": "41. 如何获得对象非原型链上的属性？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#45"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-46",
+      "title": "42. 对闭包的理解",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#46"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-47",
+      "title": "43. 对作用域、作用域链的理解",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#47"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-48",
+      "title": "1）全局作用域和函数作用域",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#48"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-49",
+      "title": "2）块级作用域",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#49"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-50",
+      "title": "44. 异步编程的实现方式？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#50"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-51",
+      "title": "45. setTimeout、Promise、Async/Await 的区别",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#51"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-52",
+      "title": "（1）setTimeout",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#52"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-53",
+      "title": "（2）Promise",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#53"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-54",
+      "title": "（3）async/await",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#54"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-55",
+      "title": "46. 对 Promise 的理解",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#55"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-56",
+      "title": "47. Promise 的基本用法",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#56"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-57",
+      "title": "（1）创建 Promise 对象",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#57"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-58",
+      "title": "（2）Promise 方法",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#58"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-59",
+      "title": "48. Promise 解决了什么问题",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#59"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-60",
+      "title": "49. Promise.all 和 Promise.race 的区别的使用场景",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#60"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-61",
+      "title": "50. 对 async/await 的理解",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#61"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-62",
+      "title": "51. async/await 的优势",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#62"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-63",
+      "title": "52. async/await 对比 Promise 的优势",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#63"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-64",
+      "title": "53. async/await 如何捕获异常",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#64"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-65",
+      "title": "54. 什么是回调函数？回调函数有什么缺点？如何解决回调地狱问题？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#65"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-66",
+      "title": "55. setTimeout、setInterval、requestAnimationFrame 各有什么特点？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#66"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-67",
+      "title": "56.微任务(Microtasks)、宏任务(task)是什么？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#67"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-68",
+      "title": "57. 对象继承的方式有哪些？",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#68"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-69",
+      "title": "设计原则：",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#69"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-70",
+      "title": "设计模式",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#70"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-71",
+      "title": "**单例模式**",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#71"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-72",
+      "title": "**工厂模式**",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#72"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-73",
+      "title": "**装饰器模式**",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#73"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-74",
+      "title": "**观察者模式**",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#74"
+    },
+    {
+      "id": "javascript-3.鲨鱼速成班之JavaScript篇-75",
+      "title": "**代理模式**",
+      "path": "questions/javascript/3.鲨鱼速成班之JavaScript篇.md#75"
+    }
+  ],
+  "React": [
+    {
+      "id": "react-4.鲨鱼速成班之React篇-1",
+      "title": "1. React 的生命周期有哪些？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#1"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-2",
+      "title": "1）组件挂载阶段",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#2"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-3",
+      "title": "（1）constructor",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#3"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-4",
+      "title": "（2）getDerivedStateFromProps",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#4"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-5",
+      "title": "（3）render",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#5"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-6",
+      "title": "（4）componentDidMount()",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#6"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-7",
+      "title": "2）组件更新阶段",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#7"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-8",
+      "title": "（1）shouldComponentUpdate",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#8"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-9",
+      "title": "（2）getSnapshotBeforeUpdate",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#9"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-10",
+      "title": "（3）componentDidUpdate",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#10"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-11",
+      "title": "3）组件卸载阶段",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#11"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-12",
+      "title": "4）错误处理阶段",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#12"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-13",
+      "title": "2. React 性能优化在哪个生命周期？它优化的原理是什么？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#13"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-14",
+      "title": "3. state 和 props 触发更新的生命周期分别有什么区别？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#14"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-15",
+      "title": "4. React 中发起网络请求应该在哪个生命周期中进行？为什么？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#15"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-16",
+      "title": "5. React 的事件和普通的 HTML 事件有什么不同？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#16"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-17",
+      "title": "6.`React`事件和原生事件的执行顺序",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#17"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-18",
+      "title": "7. 对 React-Fiber 的理解，它解决了什么问题？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#18"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-19",
+      "title": "8. React 高阶组件是什么，和普通组件有什么区别，适用什么场景",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#19"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-20",
+      "title": "9.React 中 refs 的作用是什么？有哪些应用场景？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#20"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-21",
+      "title": "10. 对 React context 的理解",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#21"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-22",
+      "title": "11. 类组件与函数组件有什么异同？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#22"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-23",
+      "title": "12.说说对受控组件和非受控组件的理解？应用场景？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#23"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-24",
+      "title": "13. React Hooks 解决了哪些问题？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#24"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-25",
+      "title": "14. React Hook 的使用限制有哪些？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#25"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-26",
+      "title": "15. useEffect 与 useLayoutEffect 的区别",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#26"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-27",
+      "title": "16 为什么 useState 要使用数组而不是对象",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#27"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-28",
+      "title": "数组的解构赋值",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#28"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-29",
+      "title": "对象的解构赋值",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#29"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-30",
+      "title": "17 React Hooks 和生命周期的关系？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#30"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-31",
+      "title": "18 常见的 hook",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#31"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-32",
+      "title": "（1).useState",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#32"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-33",
+      "title": "（2).useEffect",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#33"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-34",
+      "title": "（3).useLayoutEffect",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#34"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-35",
+      "title": "（4) useMemo",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#35"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-36",
+      "title": "（5） useCallback",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#36"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-37",
+      "title": "（6） useRef",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#37"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-38",
+      "title": "（7） useContext",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#38"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-39",
+      "title": "（8） useReducer",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#39"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-40",
+      "title": "19 React Hook 原理",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#40"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-41",
+      "title": "20 React setState 调用的原理",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#41"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-42",
+      "title": "21 组件通讯",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#42"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-43",
+      "title": "（1）. 父子组件的通信方式？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#43"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-44",
+      "title": "（2）. 跨级组件的通信方式？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#44"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-45",
+      "title": "（3）. 非嵌套关系组件的通信方式？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#45"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-46",
+      "title": "22. React-Router 的实现原理是什么？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#46"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-47",
+      "title": "23. 如何配置 React-Router 实现路由切换",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#47"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-48",
+      "title": "24. React-Router 怎么设置重定向？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#48"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-49",
+      "title": "25. React-Router 如何获取 URL 的参数和历史对象？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#49"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-50",
+      "title": "26. React-Router 的路由有几种模式？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#50"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-51",
+      "title": "27. React diff 算法的原理是什么？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#51"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-52",
+      "title": "28. React key 是干嘛用的 为什么要加？key 主要是解决哪一类问题的",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#52"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-53",
+      "title": "29. 虚拟 DOM 的引入与直接操作原生 DOM 相比，哪一个效率更高，为什么",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#53"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-54",
+      "title": "30. React 与 Vue 的 diff 算法有何不同？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#54"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-55",
+      "title": "31. Redux 的理解以及原理和工作流程",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#55"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-56",
+      "title": "32. Redux 中异步的请求怎么处理",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#56"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-57",
+      "title": "33. Redux 请求中间件如何处理并发",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#57"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-58",
+      "title": "34. mobox 和 redux 有什么区别？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#58"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-59",
+      "title": "35. 同时引用这三个库 react.js、react-dom.js 和 babel.js 它们都有什么作用？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#59"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-60",
+      "title": "36. 对 React SSR 的理解",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#60"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-61",
+      "title": "37. React 中的高阶组件运用了什么设计模式？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#61"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-62",
+      "title": "38. 对 React 和 Vue 的理解，它们的异同",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#62"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-63",
+      "title": "39 说说 React 性能优化的手段有哪些？",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#63"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-64",
+      "title": "(1)避免使用内联函数",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#64"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-65",
+      "title": "(2)使用 React Fragments 避免额外标记",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#65"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-66",
+      "title": "(3)事件绑定方式",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#66"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-67",
+      "title": "(4)使用 Immutable",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#67"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-68",
+      "title": "(5)懒加载组件",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#68"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-69",
+      "title": "(6)服务端渲染",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#69"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-70",
+      "title": "其他",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#70"
+    },
+    {
+      "id": "react-4.鲨鱼速成班之React篇-71",
+      "title": "40. React.lazy() 实现的原理",
+      "path": "questions/react/4.鲨鱼速成班之React篇.md#71"
+    }
+  ],
+  "Vue": [
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-1",
+      "title": "1. Vue 的基本原理",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#1"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-2",
+      "title": "2. data 为什么是一个函数而不是对象",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#2"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-3",
+      "title": "3.说说 vue 内置指令",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#3"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-4",
+      "title": "4. v-if、v-show、v-html 的原理",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#4"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-5",
+      "title": "5. v-if 和 v-show 的区别",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#5"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-6",
+      "title": "6. v-model 是如何实现的，语法糖实际是什么？",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#6"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-7",
+      "title": "7. v-model 可以被用在自定义组件上吗？如果可以，如何使用？",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#7"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-8",
+      "title": "8. Computed 和 Watch 的区别",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#8"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-9",
+      "title": "9. 对 keep-alive 的理解，它是如何实现的，具体缓存的是什么？",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#9"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-10",
+      "title": "10. 双向数据绑定的原理",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#10"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-11",
+      "title": "11. 使用 Object.defineProperty() 来进行数据劫持有什么缺点？",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#11"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-12",
+      "title": "12. MVVM、MVC、MVP 的区别",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#12"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-13",
+      "title": "13. 如何保存页面的当前的状态",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#13"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-14",
+      "title": "优点",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#14"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-15",
+      "title": "缺点",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#15"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-16",
+      "title": "优点",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#16"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-17",
+      "title": "缺点",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#17"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-18",
+      "title": "优点",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#18"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-19",
+      "title": "缺点",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#19"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-20",
+      "title": "14.vue中组件通信方式",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#20"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-21",
+      "title": "（1） props / $emit",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#21"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-22",
+      "title": "1. 父组件向子组件传值",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#22"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-23",
+      "title": "2. 子组件向父组件传值",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#23"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-24",
+      "title": "（2）eventBus 事件总线（$emit / $on）",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#24"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-25",
+      "title": "（3）依赖注入（provide / inject）",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#25"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-26",
+      "title": "（3）ref / $refs",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#26"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-27",
+      "title": "（4）$parent / $children",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#27"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-28",
+      "title": "（5）$attrs / $listeners",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#28"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-29",
+      "title": "（6）总结",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#29"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-30",
+      "title": "15. $nextTick 原理及作用",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#30"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-31",
+      "title": "16. Vue template 到 render 的过程",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#31"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-32",
+      "title": "17. Vue.use 的实现原理",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#32"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-33",
+      "title": "18. Vue data 中某一个属性的值发生改变后，视图会立即同步执行重新渲染吗？",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#33"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-34",
+      "title": "19. 简述 mixin、extends 的覆盖逻辑",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#34"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-35",
+      "title": "20. 子组件可以直接改变父组件的数据吗？",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#35"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-36",
+      "title": "21. 对 React 和 Vue 的理解，它们的异同",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#36"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-37",
+      "title": "22. Vue 的优点",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#37"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-38",
+      "title": "23. vue 如何监听对象或者数组某个属性的变化",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#38"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-39",
+      "title": "24. 什么是 mixin ？",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#39"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-40",
+      "title": "25. Vue 模版编译原理",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#40"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-41",
+      "title": "26. 对 SSR 的理解",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#41"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-42",
+      "title": "27. Vue 的性能优化有哪些",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#42"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-43",
+      "title": "28. 对 SPA 单页面的理解，它的优缺点分别是什么？",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#43"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-44",
+      "title": "28. 说一下 Vue 的生命周期",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#44"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-45",
+      "title": "29. Vue 子组件和父组件执行顺序",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#45"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-46",
+      "title": "30. created 和 mounted 的区别",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#46"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-47",
+      "title": "31. 一般在哪个生命周期请求异步数据",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#47"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-48",
+      "title": "32. keep-alive 中的生命周期哪些",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#48"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-49",
+      "title": "33. Vuex 的原理",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#49"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-50",
+      "title": "34. Vuex 中 action 和 mutation 的区别",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#50"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-51",
+      "title": "35. Vuex 和 localStorage 的区别",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#51"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-52",
+      "title": "36. Redux 和 Vuex 有什么区别，它们的共同思想--了解即可",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#52"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-53",
+      "title": "37. 为什么要用 Vuex 或者 Redux",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#53"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-54",
+      "title": "38. Vuex 有哪几种属性？",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#54"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-55",
+      "title": "39. 路由的 hash 和 history 模式的区别",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#55"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-56",
+      "title": "1. hash 模式",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#56"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-57",
+      "title": "2. history 模式",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#57"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-58",
+      "title": "3. 两种模式对比",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#58"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-59",
+      "title": "40. $route 和$router 的区别",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#59"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-60",
+      "title": "41. 如何定义动态路由？如何获取传过来的动态参数？",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#60"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-61",
+      "title": "42. Vue-router 路由钩子在生命周期的体现",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#61"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-62",
+      "title": "43. 对虚拟 DOM 的理解？",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#62"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-63",
+      "title": "44. 虚拟 DOM 的解析过程",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#63"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-64",
+      "title": "45. 为什么要用虚拟 DOM",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#64"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-65",
+      "title": "46. 虚拟 DOM 真的比真实 DOM 性能好吗",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#65"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-66",
+      "title": "47. DIFF 算法的原理",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#66"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-67",
+      "title": "48. Vue 中 key 的作用",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#67"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-68",
+      "title": "49. 为什么不建议用 index 作为 key?",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#68"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-69",
+      "title": "1. Vue3.0 有什么更新",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#69"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-70",
+      "title": "2. Vue3.0 为什么要用 proxy？",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#70"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-71",
+      "title": "3. Vue 3.0 中的 Vue Composition API？",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#71"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-72",
+      "title": "4. defineProperty 和 proxy 的区别",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#72"
+    },
+    {
+      "id": "vue-4.鲨鱼速成班之Vue篇-73",
+      "title": "5. Composition API 与 React Hook 很像，区别是什么",
+      "path": "questions/vue/4.鲨鱼速成班之Vue篇.md#73"
+    }
+  ],
+  "前端工程化": [
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-1",
+      "title": "1. git rebase 和 git merge 的区别",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#1"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-2",
+      "title": "1.说说你对 webpack 的理解？解决了什么问题？",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#2"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-3",
+      "title": "2.说说 webpack 的构建流程?",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#3"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-4",
+      "title": "3.说说 webpack 中常见的 Loader？解决了什么问题？",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#4"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-5",
+      "title": "4.说说 webpack 中常见的 Plugin？解决了什么问题？",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#5"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-6",
+      "title": "5.说说 Loader 和 Plugin 的区别？",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#6"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-7",
+      "title": "6.模块打包原理知道吗？",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#7"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-8",
+      "title": "7.说说文件监听原理",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#8"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-9",
+      "title": "8.使用 webpack 开发时，你用过哪些可以提高效率的插件？",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#9"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-10",
+      "title": "9.说说 webpack 的热更新是如何做到的？原理是什么？",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#10"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-11",
+      "title": "10.说说如何借助 webpack 来优化前端性能？",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#11"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-12",
+      "title": "11.如何提⾼**webpack**的打包速度**?**",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#12"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-13",
+      "title": "（1）优化 Loader",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#13"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-14",
+      "title": "（2）HappyPack",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#14"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-15",
+      "title": "（3）DllPlugin",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#15"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-16",
+      "title": "（4）代码压缩",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#16"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-17",
+      "title": "（5）其他",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#17"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-18",
+      "title": "12.如何减少 Webpack 打包体积",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#18"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-19",
+      "title": "（1）按需加载",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#19"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-20",
+      "title": "（2）Scope Hoisting",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#20"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-21",
+      "title": "（3）Tree Shaking",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#21"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-22",
+      "title": "13.如何⽤**webpack**来优化前端性能？",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#22"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-23",
+      "title": "14.如何提⾼**webpack**的构建速度？",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#23"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-24",
+      "title": "15.source map 是什么？生产环境怎么用？",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#24"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-25",
+      "title": "16.SourceMap 配置选择",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#25"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-26",
+      "title": "17. webpack 指纹策略",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#26"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-27",
+      "title": "18.是否写过 Loader？简单描述一下编写 loader 的思路？",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#27"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-28",
+      "title": "19.是否写过 Plugin？简单描述一下编写 Plugin 的思路？",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#28"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-29",
+      "title": "20.了解 Vite 吗？ 和 webpack 有什么区别",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#29"
+    },
+    {
+      "id": "前端工程化-5.鲨鱼速成班之前端工程化篇-30",
+      "title": "**1. Babel**的原理是什么?",
+      "path": "questions/前端工程化/5.鲨鱼速成班之前端工程化篇.md#30"
+    }
+  ],
+  "性能优化": [
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-1",
+      "title": "1. 如何对项目中的图片进行优化？",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#1"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-2",
+      "title": "2.减少监听器，使用事件委托",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#2"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-3",
+      "title": "3.减少或合并 DOM 操作或使用虚拟 DOM",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#3"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-4",
+      "title": "4.将 CSS 放在文件头部，JavaScript 文件放在底部",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#4"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-5",
+      "title": "5.避免页面卡顿 60fps 与设备刷新率",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#5"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-6",
+      "title": "6.对大量数据计算使用缓存",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#6"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-7",
+      "title": "7.善用缓存，不重复加载相同的资源",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#7"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-8",
+      "title": "8.静态资源使用 CDN",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#8"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-9",
+      "title": "9.懒加载的概念",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#9"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-10",
+      "title": "10.懒加载的特点",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#10"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-11",
+      "title": "11.懒加载的实现原理",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#11"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-12",
+      "title": "12.懒加载与预加载的区别",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#12"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-13",
+      "title": "13.减少重绘重排",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#13"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-14",
+      "title": "14.如何优化动画？",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#14"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-15",
+      "title": "15.documentFragment 是什么？用它跟直接操作 DOM 的区别是什么？",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#15"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-16",
+      "title": "16.对节流与防抖的理解",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#16"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-17",
+      "title": "17.实现节流函数和防抖函数",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#17"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-18",
+      "title": "18. 性能优化定位（五年左右的前端必看！要求掌握并且手动实践）",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#18"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-19",
+      "title": "性能优化的意义",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#19"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-20",
+      "title": "1. 性能是留住用户很重要的一环",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#20"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-21",
+      "title": "2. 性能是改善转换率至关重要的一环",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#21"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-22",
+      "title": "用户角度的性能标准是什么",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#22"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-23",
+      "title": "常见网站性能指标",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#23"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-24",
+      "title": "Google Web Vitals - 使用者体验量化",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#24"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-25",
+      "title": "Performance API",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#25"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-26",
+      "title": "Google performance 面板",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#26"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-27",
+      "title": "lighthouse",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#27"
+    },
+    {
+      "id": "性能优化-6 鲨鱼速成班之性能优化篇-28",
+      "title": "node cli lighthouse",
+      "path": "questions/性能优化/6 鲨鱼速成班之性能优化篇.md#28"
+    }
+  ],
+  "手写代码": [
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-1",
+      "title": "1 compose",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#1"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-2",
+      "title": "2 settimeout 模拟实现 setinterval(带清除定时器的版本)",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#2"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-3",
+      "title": "3 发布订阅模式",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#3"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-4",
+      "title": "4 数组去重",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#4"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-5",
+      "title": "5 数组扁平化",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#5"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-6",
+      "title": "6 寄生组合继承",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#6"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-7",
+      "title": "7 实现有并行限制的 Promise 调度器",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#7"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-8",
+      "title": "8 new 操作符",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#8"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-9",
+      "title": "9 call apply bind",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#9"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-10",
+      "title": "10 深拷贝（考虑到复制 Symbol 类型）",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#10"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-11",
+      "title": "11 instanceof",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#11"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-12",
+      "title": "12 柯里化",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#12"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-13",
+      "title": "13 冒泡排序--时间复杂度 n^2",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#13"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-14",
+      "title": "14 选择排序--时间复杂度 n^2",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#14"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-15",
+      "title": "15 插入排序--时间复杂度 n^2",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#15"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-16",
+      "title": "16 快排--时间复杂度 nlogn~ n^2 之间",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#16"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-17",
+      "title": "17 归并排序--时间复杂度 nlog(n)",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#17"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-18",
+      "title": "18 二分查找--时间复杂度 log2(n)",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#18"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-19",
+      "title": "19 实现 LazyMan",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#19"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-20",
+      "title": "20 防抖节流",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#20"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-21",
+      "title": "21 写版本号排序的方法",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#21"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-22",
+      "title": "22 LRU 算法",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#22"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-23",
+      "title": "23 Promise 以及相关方法的实现",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#23"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-24",
+      "title": "24 实现一个 add 方法",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#24"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-25",
+      "title": "25 动态规划求解硬币找零问题",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#25"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-26",
+      "title": "26 请实现 DOM2JSON 一个函数，可以把一个 DOM 节点输出 JSON 的格式",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#26"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-27",
+      "title": "27 类数组转化为数组的方法",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#27"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-28",
+      "title": "28 Object.is 实现",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#28"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-29",
+      "title": "29 AJAX",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#29"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-30",
+      "title": "30 分片思想解决大数据量渲染问题",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#30"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-31",
+      "title": "31 将虚拟 Dom 转化为真实 Dom",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#31"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-32",
+      "title": "32 实现模板字符串解析功能",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#32"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-33",
+      "title": "33 实现一个对象的 flatten 方法",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#33"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-34",
+      "title": "34 列表转成树形结构",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#34"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-35",
+      "title": "35 树形结构转成列表",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#35"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-36",
+      "title": "36 大数相加",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#36"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-37",
+      "title": "37 isCyclic 判断循环引用",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#37"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-38",
+      "title": "38. 千分位格式化",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#38"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-39",
+      "title": "39.手机号 3-4-4 分割",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#39"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-40",
+      "title": "40 Object.create",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#40"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-41",
+      "title": "41. 跳出 foreach 循环",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#41"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-42",
+      "title": "42. 两个数组的交集",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#42"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-43",
+      "title": "43.给定一个整数数组，判断是否存在重复元素",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#43"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-44",
+      "title": "44. 数字加法",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#44"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-45",
+      "title": "45.数字减法",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#45"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-46",
+      "title": "46.数字乘法",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#46"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-47",
+      "title": "47.数字除法",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#47"
+    },
+    {
+      "id": "手写代码-9.鲨鱼速成班之手写篇-48",
+      "title": "48.手写jsonstringfy",
+      "path": "questions/手写代码/9.鲨鱼速成班之手写篇.md#48"
+    }
+  ],
+  "浏览器原理": [
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-1",
+      "title": "1. 进程与线程的概念",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#1"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-2",
+      "title": "2. 什么是 CSRF 攻击？",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#2"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-3",
+      "title": "（1）概念",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#3"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-4",
+      "title": "（2）攻击类型",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#4"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-5",
+      "title": "3. 如何防御 CSRF 攻击？",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#5"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-6",
+      "title": "4.  什么是 XSS 攻击？",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#6"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-7",
+      "title": "（1）概念",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#7"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-8",
+      "title": "（2）攻击类型",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#8"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-9",
+      "title": "5. 如何防御 XSS 攻击？",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#9"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-10",
+      "title": "6. 浏览器渲染进程的线程有哪些",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#10"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-11",
+      "title": "7. 对Service Worker的理解",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#11"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-12",
+      "title": "8. 对浏览器的缓存机制的理解",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#12"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-13",
+      "title": "9. 浏览器资源缓存的位置有哪些？",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#13"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-14",
+      "title": "10. 协商缓存和强缓存的区别",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#14"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-15",
+      "title": "（1）强缓存",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#15"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-16",
+      "title": "（2）协商缓存",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#16"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-17",
+      "title": "11. 浏览器的渲染过程",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#17"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-18",
+      "title": "12. 什么是文档的预解析？",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#18"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-19",
+      "title": "13. CSS 如何阻塞文档解析？",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#19"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-20",
+      "title": "14. 什么情况会阻塞渲染？",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#20"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-21",
+      "title": "15. Cookie、LocalStorage、SessionStorage区别",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#21"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-22",
+      "title": "（1）Cookie",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#22"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-23",
+      "title": "（2）LocalStorage",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#23"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-24",
+      "title": "（3）SessionStorage",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#24"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-25",
+      "title": "16. Cookie有哪些字段，作用分别是什么",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#25"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-26",
+      "title": "17. 什么是同源策略",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#26"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-27",
+      "title": "18. 如何解决跨越问题 （重点关注）",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#27"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-28",
+      "title": "（1）CORS",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#28"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-29",
+      "title": "减少OPTIONS请求次数：",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#29"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-30",
+      "title": "##### CORS中Cookie相关问题：",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#30"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-31",
+      "title": "（2）JSONP",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#31"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-32",
+      "title": "（3）postMessage 跨域",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#32"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-33",
+      "title": "（4）nginx代理跨域",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#33"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-34",
+      "title": "（5）nodejs 中间件代理跨域",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#34"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-35",
+      "title": "（6）document.domain + iframe跨域",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#35"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-36",
+      "title": "（7）location.hash + iframe跨域",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#36"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-37",
+      "title": "（8）window.name + iframe跨域",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#37"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-38",
+      "title": "（9）WebSocket协议跨域",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#38"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-39",
+      "title": "19. 如何阻止事件冒泡",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#39"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-40",
+      "title": "20. 对事件委托的理解",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#40"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-41",
+      "title": "（1）事件委托的概念",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#41"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-42",
+      "title": "（2）事件委托的特点",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#42"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-43",
+      "title": "（3）局限性",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#43"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-44",
+      "title": "(4). 事件委托的使用场景",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#44"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-45",
+      "title": "21. 对事件循环的理解（重点关键）",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#45"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-46",
+      "title": "22. 宏任务和微任务分别有哪些",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#46"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-47",
+      "title": "23. 事件触发的过程是怎样的",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#47"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-48",
+      "title": "24. 浏览器的垃圾回收机制",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#48"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-49",
+      "title": "（1）垃圾回收的概念",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#49"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-50",
+      "title": "（2）垃圾回收的方式",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#50"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-51",
+      "title": "（3）减少垃圾回收",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#51"
+    },
+    {
+      "id": "浏览器原理-8.鲨鱼速成班之浏览器原理篇-52",
+      "title": "25. 哪些情况会导致内存泄漏",
+      "path": "questions/浏览器原理/8.鲨鱼速成班之浏览器原理篇.md#52"
+    }
+  ],
+  "算法": [
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-1",
+      "title": "1. [无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#1"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-2",
+      "title": "2. [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#2"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-3",
+      "title": "3.[字符串转换整数 (atoi)](https://leetcode.cn/problems/string-to-integer-atoi/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#3"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-4",
+      "title": "4.[复原 IP 地址](https://leetcode.cn/problems/restore-ip-addresses/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#4"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-5",
+      "title": "5.[反转字符串中的单词](https://leetcode.cn/problems/reverse-words-in-a-string/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#5"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-6",
+      "title": "6.[两数之和](https://leetcode.cn/problems/two-sum/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#6"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-7",
+      "title": "7.[三数之和](https://leetcode.cn/problems/3sum/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#7"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-8",
+      "title": "8.[买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/submissions/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#8"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-9",
+      "title": "9.[单词搜索](https://leetcode.cn/problems/word-search)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#9"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-10",
+      "title": "10.[岛屿数量](https://leetcode.cn/problems/number-of-islands/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#10"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-11",
+      "title": "11.[打家劫舍](https://leetcode.cn/problems/house-robber)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#11"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-12",
+      "title": "12.[前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#12"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-13",
+      "title": "13.[根据身高重建队列](https://leetcode.cn/problems/queue-reconstruction-by-height)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#13"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-14",
+      "title": "14.[找到所有数组中消失的数字](https://leetcode.cn/problems/find-all-numbers-disappeared-in-an-array)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#14"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-15",
+      "title": "15.[每日温度](https://leetcode.cn/problems/daily-temperatures)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#15"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-16",
+      "title": "16.[移动零](https://leetcode.cn/problems/move-zeroes)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#16"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-17",
+      "title": "17.[合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#17"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-18",
+      "title": "18.[最大子数组和](https://leetcode.cn/problems/maximum-subarray/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#18"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-19",
+      "title": "19.[子集](https://leetcode.cn/problems/subsets/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#19"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-20",
+      "title": "20.[全排列](https://leetcode.cn/problems/permutations/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#20"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-21",
+      "title": "21.[最小路径和](https://leetcode.cn/problems/minimum-path-sum/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#21"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-22",
+      "title": "22.[从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#22"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-23",
+      "title": "23.[排序数组](https://leetcode.cn/problems/sort-an-array/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#23"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-24",
+      "title": "24.[爬楼梯](https://leetcode.cn/problems/climbing-stairs/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#24"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-25",
+      "title": "25.[最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#25"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-26",
+      "title": "26.[零钱兑换](https://leetcode.cn/problems/coin-change/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#26"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-27",
+      "title": "27.[反转链表](https://leetcode.cn/problems/reverse-linked-list/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#27"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-28",
+      "title": "28.[环形链表](https://leetcode.cn/problems/linked-list-cycle/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#28"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-29",
+      "title": "29.[删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#29"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-30",
+      "title": "30.[删除排序链表中的重复元素 II](https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#30"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-31",
+      "title": "31.[二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#31"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-32",
+      "title": "32.[排序链表](https://leetcode.cn/problems/sort-list)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#32"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-33",
+      "title": "33.[相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#33"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-34",
+      "title": "34.[回文链表](https://leetcode.cn/problems/palindrome-linked-list)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#34"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-35",
+      "title": "35.[二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#35"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-36",
+      "title": "36.[二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#36"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-37",
+      "title": "37.[二叉树的深度](https://leetcode.cn/problems/er-cha-shu-de-shen-du-lcof/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#37"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-38",
+      "title": "38.[翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#38"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-39",
+      "title": "39.[数组中的第 K 个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#39"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-40",
+      "title": "40.[有效的括号](https://leetcode.cn/problems/valid-parentheses/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#40"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-41",
+      "title": "41. [实现 Trie (前缀树)](https://leetcode.cn/problems/implement-trie-prefix-tree/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#41"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-42",
+      "title": "42.[lru 算法](https://leetcode.cn/problems/lru-cache/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#42"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-43",
+      "title": "43.[括号生成](https://leetcode.cn/problems/generate-parentheses/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#43"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-44",
+      "title": "44.[x 的平方根 ](https://leetcode.cn/problems/sqrtx/)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#44"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-45",
+      "title": "45.[岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#45"
+    },
+    {
+      "id": "算法-10.鲨鱼速成班之算法篇-46",
+      "title": "46.[最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence)",
+      "path": "questions/算法/10.鲨鱼速成班之算法篇.md#46"
+    }
+  ],
+  "计算机网络": [
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-1",
+      "title": "1. 当在浏览器中输入 Google.com 并且按下回车之后发生了什么？",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#1"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-2",
+      "title": "2.如何理解 OSI 七层模型?（了解即可）",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#2"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-3",
+      "title": "3. TCP 和 UDP 的区别",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#3"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-4",
+      "title": "4. TCP 的三次握手和四次挥手 （了解即可）",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#4"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-5",
+      "title": "（1）三次握手",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#5"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-6",
+      "title": "（2）四次挥手",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#6"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-7",
+      "title": "5. 常见的 HTTP 请求方法",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#7"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-8",
+      "title": "6. OPTIONS 请求方法及使用场景",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#8"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-9",
+      "title": "7. GET 和 POST 的请求的区别",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#9"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-10",
+      "title": "（1）参数位置",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#10"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-11",
+      "title": "(2) 参数长度",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#11"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-12",
+      "title": "(3) 安全",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#12"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-13",
+      "title": "(4) 数据包",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#13"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-14",
+      "title": "8. 常见的 HTTP 请求头和响应头",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#14"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-15",
+      "title": "9. HTTP1.0、 HTTP 1.1 和 HTTP 2.0、HTTP3.0 的区别",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#15"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-16",
+      "title": "HTTP1.0：",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#16"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-17",
+      "title": "HTTP1.1：",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#17"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-18",
+      "title": "HTTP2.0：",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#18"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-19",
+      "title": "HTTP 3.0",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#19"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-20",
+      "title": "10. HTTP 和 HTTPS 协议的区别",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#20"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-21",
+      "title": "11. HTTP 请求报文的是什么样的？",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#21"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-22",
+      "title": "12. HTTP 响应报文的是什么样的？",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#22"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-23",
+      "title": "13. HTTP 协议的优点和缺点",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#23"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-24",
+      "title": "14. 与缓存相关的 HTTP 请求头有哪些",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#24"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-25",
+      "title": "15 HTTP 状态码",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#25"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-26",
+      "title": "16. DNS 协议是什么以及寻址过程 （了解即可）",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#26"
+    },
+    {
+      "id": "计算机网络-7.鲨鱼速成班之计算机网络篇-27",
+      "title": "17. 对 WebSocket 的理解 （如果项目中有遇到 需要重点了解）",
+      "path": "questions/计算机网络/7.鲨鱼速成班之计算机网络篇.md#27"
+    }
+  ]
+}

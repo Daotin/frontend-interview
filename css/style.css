@@ -1,12 +1,12 @@
 :root {
   --primary-color: #3498db;
-  --secondary-color: #2ecc71;
-  --background-color: #f8f9fa;
+  --secondary-color: #ff6666;
+  --background-color: #f5f6fa;
   --text-color: #2c3e50;
   --card-background: #ffffff;
   --shadow-color: rgba(0, 0, 0, 0.1);
   --inactive-color: #95a5a6;
-  --answer-background: #f5f6fa;
+  --answer-background: #f1f1fa;
 }
 
 * {
@@ -74,7 +74,6 @@ header h1 {
   background-color: var(--card-background);
   border-radius: 10px;
   padding: 30px;
-  margin-bottom: 20px;
   box-shadow: 0 4px 6px var(--shadow-color);
   cursor: pointer;
   transition: background-color 0.2s;
@@ -85,7 +84,6 @@ header h1 {
 }
 
 #question-content {
-  margin-bottom: 20px;
 }
 
 #question-content h3 {
@@ -94,13 +92,13 @@ header h1 {
 }
 
 #answer-section {
-  background-color: var(--answer-background);
   border-radius: 5px;
-  padding: 20px;
-  margin-top: 20px;
+  padding: 0;
+  margin-top: 30px;
   word-wrap: break-word;
   overflow-wrap: break-word;
   cursor: default;
+  border-top: 2px solid var(--shadow-color);
 }
 
 #answer-section.hidden {
@@ -353,6 +351,7 @@ header h1 {
   border-radius: 3px;
   font-size: 0.8em;
   margin-right: 8px;
+  margin-top: 4px;
   vertical-align: middle;
 }
 
@@ -364,4 +363,250 @@ header h1 {
 #question-content h6 {
   margin: 15px 0;
   display: block;
+}
+
+.favorite-btn {
+  background-color: var(--secondary-color) !important;
+}
+
+#show-favorites {
+  background-color: var(--secondary-color);
+}
+
+/* 弹窗样式 */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  background-color: var(--card-background);
+  border-radius: 10px;
+  width: 90%;
+  max-width: 800px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-header {
+  padding: 20px;
+  border-bottom: 1px solid var(--background-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h2 {
+  margin: 0;
+  color: var(--text-color);
+}
+
+.close-modal {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--text-color);
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.close-modal:hover {
+  background-color: var(--background-color);
+}
+
+.modal-body {
+  padding: 20px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+/* 收藏列表样式 */
+.favorite-item {
+  background-color: var(--background-color);
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.favorite-item-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.favorite-item-header .title-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1;
+}
+
+.favorite-item-header .title-section h3 {
+  display: inline;
+  margin: 0;
+}
+
+.favorite-item .answer {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid var(--shadow-color);
+  display: none;
+}
+
+.favorite-item .answer.show {
+  display: block;
+}
+
+/* 收藏列表中的 Markdown 样式 */
+.favorite-item .answer h1,
+.favorite-item .answer h2,
+.favorite-item .answer h3,
+.favorite-item .answer h4,
+.favorite-item .answer h5,
+.favorite-item .answer h6 {
+  margin: 1em 0 0.6em;
+  line-height: 1.4;
+  color: var(--text-color);
+}
+
+.favorite-item .answer h4 {
+  font-size: 1.2em;
+}
+
+.favorite-item .answer h5 {
+  font-size: 1.1em;
+}
+
+.favorite-item .answer h6 {
+  font-size: 1em;
+}
+
+.favorite-item .answer p {
+  margin: 0.8em 0;
+  line-height: 1.6;
+}
+
+.favorite-item .answer ul,
+.favorite-item .answer ol {
+  margin: 0.5em 0;
+  padding-left: 2em;
+}
+
+.favorite-item .answer li {
+  margin: 0.3em 0;
+}
+
+.favorite-item .answer code {
+  background-color: #f0f0f0;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.9em;
+}
+
+.favorite-item .answer pre {
+  background-color: #f0f0f0;
+  padding: 1em;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin: 1em 0;
+}
+
+.favorite-item .answer pre code {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.favorite-item .answer blockquote {
+  margin: 1em 0;
+  padding-left: 1em;
+  border-left: 4px solid var(--primary-color);
+  color: #666;
+}
+
+.favorite-item .answer table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  display: block;
+  overflow-x: auto;
+}
+
+.favorite-item .answer th,
+.favorite-item .answer td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.favorite-item .answer th {
+  background-color: #f5f5f5;
+}
+
+.favorite-item .answer img {
+  max-width: 100%;
+  height: auto;
+  margin: 1em 0;
+}
+
+.favorite-item .answer strong {
+  font-weight: 600;
+}
+
+.favorite-item .answer em {
+  font-style: italic;
+}
+
+.question-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.question-header #question-content {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.favorite-btn {
+  background: none !important;
+  border: none !important;
+  font-size: 30px !important;
+  color: var(--secondary-color) !important;
+  cursor: pointer;
+  height: 30px;
+  line-height: 30px;
+  min-width: auto !important;
+  transition: transform 0.2s !important;
+}
+
+.favorite-btn:hover {
+  transform: scale(1.2) !important;
 }

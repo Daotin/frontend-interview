@@ -1,6 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
+function isThirdLevelTitle(line) {
+  // 确保是精确的三级标题（前面只能有空格，必须是三个#）
+  const trimmed = line.trimStart();
+  return trimmed.startsWith('### ') && !trimmed.startsWith('#### ');
+}
+
 function generateIndex() {
   const questionsPath = path.join(__dirname, '..', 'questions');
   const index = {};
@@ -32,28 +38,30 @@ function generateIndex() {
       const filePath = path.join(categoryPath, file);
       const content = fs.readFileSync(filePath, 'utf-8');
 
-      // 找到所有的三级标题位置
-      const titleMatches = Array.from(content.matchAll(/###\s+[^\n]+/g));
-      if (!titleMatches.length) return;
+      // 将内容按行分割
+      const lines = content.split('\n');
+      const questions = [];
+      let currentQuestionIndex = -1;
 
-      // 遍历每个标题（除了最后一个）
-      for (let i = 0; i < titleMatches.length; i++) {
-        const currentMatch = titleMatches[i];
-        const nextMatch = titleMatches[i + 1];
+      // 遍历每一行
+      lines.forEach((line, index) => {
+        if (isThirdLevelTitle(line)) {
+          currentQuestionIndex++;
+          questions.push({
+            title: line.trim().substring(4).trim(),
+            index: currentQuestionIndex + 1,
+          });
+        }
+      });
 
-        const title = currentMatch[0].replace(/^###\s+/, '').trim();
-
-        // 获取当前标题到下一个标题之间的内容作为答案
-        let answerEndIndex = nextMatch ? nextMatch.index : content.length;
-        let questionContent = content.slice(currentMatch.index, answerEndIndex).trim();
-
-        // 添加到索引
+      // 添加到索引
+      questions.forEach((question) => {
         index[category].push({
-          id: `${category.toLowerCase()}-${file.replace('.md', '')}-${i + 1}`,
-          title: title,
-          path: `questions/${category.toLowerCase()}/${file}#${i + 1}`,
+          id: `${category.toLowerCase()}-${file.replace('.md', '')}-${question.index}`,
+          title: question.title,
+          path: `questions/${category.toLowerCase()}/${file}#${question.index}`,
         });
-      }
+      });
     });
   });
 

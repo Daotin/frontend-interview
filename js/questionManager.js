@@ -65,6 +65,7 @@ class QuestionManager {
     }
 
     const categoryQuestions = this.questions[this.currentCategory];
+
     if (categoryQuestions.length === 0) {
       const questionContent = document.getElementById('question-content');
       questionContent.innerHTML = `<p>该分类暂无题目</p>`;
@@ -103,14 +104,16 @@ class QuestionManager {
 
   parseMarkdown(markdown, questionNumber) {
     // 找到所有的三级标题位置
-    const titleMatches = Array.from(markdown.matchAll(/###\s+[^\n]+/g));
+    const titleMatches = Array.from(markdown.matchAll(/^###\s+[^\n]+/gm));
     if (!titleMatches.length || questionNumber > titleMatches.length) {
       return { content: '', answer: '' };
     }
 
+    // console.log(titleMatches);
+
     // 获取当前题目的三级标题
     const currentMatch = titleMatches[questionNumber - 1];
-    const nextThirdLevelTitle = titleMatches[questionNumber];
+    const nextMatch = titleMatches[questionNumber];
 
     // 获取标题
     const title = currentMatch[0];
@@ -119,7 +122,7 @@ class QuestionManager {
     const contentStartIndex = currentMatch.index + currentMatch[0].length;
 
     // 如果有下一个三级标题，则截取到那里；否则截取到文件末尾
-    const contentEndIndex = nextThirdLevelTitle ? nextThirdLevelTitle.index : markdown.length;
+    const contentEndIndex = nextMatch ? nextMatch.index : markdown.length;
 
     // 获取这一部分的所有内容
     const answer = markdown.slice(contentStartIndex, contentEndIndex).trim();
@@ -140,7 +143,7 @@ class QuestionManager {
     // 添加分类标签到题目内容
     const categoryTag = `<span class="category-tag">${this.currentCategory}</span>`;
     questionContent.innerHTML = categoryTag + this.currentQuestion.content;
-    answerContent.innerHTML = this.currentQuestion.answer;
+    answerContent.innerHTML = this.currentQuestion.answer || '暂无答案';
     answerSection.classList.add('hidden');
   }
 
